@@ -1,0 +1,3 @@
+crear_producto Manzana;50;5;BodegaA
+crear_producto Banana;30;1.5;BodegaB
+crear_producto Pera;40;5;BodegaC

@@ -1,0 +1,4 @@
+vender_producto Perejil;50;BodegaB
+vender_producto Manzana;10;BodegaA
+agregar_stock Banana;25;BodegaB
+agregar_stock naranja;25;BodegaB
