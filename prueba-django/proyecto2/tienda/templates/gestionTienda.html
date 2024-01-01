@@ -1,0 +1,46 @@
+{% extends "./base.html" %}
+
+{% block title %} Gestión de Tienda {% endblock %}
+
+{% block body %}
+
+
+  
+ 
+
+  <div class="row">
+    <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card" style="width: 18rem;">
+            <img src="https://i.ibb.co/kc8kBVp/lego-2539844-1280.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Clientes</h5>
+              <p class="card-text">Vista hacia la gestion de  clientes</p>
+              <a href="gestionCliente" class="btn btn-primary">Clientes</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card" style="width: 18rem;">
+            <img src="https://i.ibb.co/yVdnjgn/tienda.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Productos</h5>
+              <p class="card-text">Vista hacia la gestion de productos.</p>
+              <a href="/gestionProductos" class="btn btn-primary">Productos</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card" style="width: 18rem;">
+            <img src="https://i.ibb.co/Nyn1gzY/factura.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Facturas</h5>
+              <p class="card-text">Vista hacia la gestion de facturas.</p>
+              <a href="#" class="btn btn-primary">Facturas</a>
+            </div>
+          </div>
+      </div>
+  </div>
+
+
+
+{% endblock %}

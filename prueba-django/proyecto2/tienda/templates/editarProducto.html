@@ -1,0 +1,39 @@
+{% extends "./base.html" %}
+
+{% block title %} Edit Producto {% endblock %}
+
+{% block body %}
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <h2>Edición de Producto</h2>
+        <div class="card">
+            <div class="card-body">
+                <form action="/editarProducto/" method="POST">{% csrf_token %}
+                    <div class="form-group">
+                        <input type="text" id="txtId" name="txtId" value="{{producto.id}}" class="form-control" placeholder="ID"
+                             readonly required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="txtNombre" name="txtNombre" value="{{producto.nombre}}" class="form-control" placeholder="Nombre"
+                            maxlength="50" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="txtDescripcion" name="txtDescripcion" value="{{producto.descripcion}}" class="form-control"  required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="numPrecio" name="numPrecio" value="{{producto.precio}}" class="form-control" min="1" max="9"
+                            value="1" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="numStock" name="numStock" value="{{producto.stock}}" class="form-control" min="1" max="9"
+                            value="1" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success btn-block text-white">Guardar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
