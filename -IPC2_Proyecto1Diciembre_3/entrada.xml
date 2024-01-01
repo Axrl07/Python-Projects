@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <cancion nombre="Attack  on bangtang">
+        <artista>"BTS"</artista>
+        <album>"odujhgo"</album>
+        <imagen>pr\400.jpg</imagen>
+        <ruta>"C:\Usuarios\Usuario\Documentos\archivo.mp3"</ruta>
+    </cancion>
+    <cancion nombre="Skyfall">
+        <artista>Adele</artista>
+        <album>James Bond: Skyfall Soundtrack</album>
+        <imagen>pr\300.jpg</imagen>
+        <ruta>C:\Usuarios\Usuario\Música\skyfall.mp3</ruta>
+    </cancion>
+    <cancion nombre="Bohemian Rhapsody">
+        <artista>Queen</artista>
+        <album>A Night at the Opera</album>
+        <imagen>pr\200.jpg</imagen>
+        <ruta>C:\Usuarios\Usuario\Música\bohemian_rhapsody.mp3</ruta>
+    </cancion>
+    <cancion nombre="Shape of You">
+        <artista>Ed Sheeran</artista>
+        <album>÷ (Divide)</album>
+        <imagen>pr\200.jpg</imagen>
+        <ruta>C:\Usuarios\Usuario\Música\shape_of_you.mp3</ruta>
+    </cancion>
+    <cancion nombre="Viva la Vida">
+        <artista>Coldplay</artista>
+        <album>Viva la Vida or Death and All His Friends</album>
+        <imagen>pr\500.jpg</imagen>
+        <ruta>C:\Usuarios\Usuario\Música\viva_la_vida.mp3</ruta>
+    </cancion>
+    <cancion nombre="Uptown Funk">
+        <artista>Mark Ronson ft. Bruno Mars</artista>
+        <album>Uptown Special</album>
+        <imagen>pr\100.jpg</imagen>
+        <ruta>C:\Usuarios\Usuario\Música\uptown_funk.mp3</ruta>
+    </cancion>
+    <cancion nombre="Something Just Like This">
+        <artista>The Chainsmokers ft Coldplay</artista>
+        <album>Memories...Do Not Open</album>
+        <imagen>pr\200.jpg</imagen>
+        <ruta>C:\Usuarios\Usuario\Música\something_just_like_this.mp3</ruta>
+    </cancion>
+    <cancion nombre="Rolling in the Deep">
+        <artista>Adele</artista>
+        <album>21</album>
+        <imagen>pr\300.jpg</imagen>
+        <ruta>C:\Usuarios\Usuario\Música\rolling_in_the_deep.mp3</ruta>
+    </cancion>
+    <cancion nombre="Someone Like You">
+        <artista>Adele</artista>
+        <album>21</album>
+        <imagen>pr\100.jpg</imagen>
+        <ruta>C:\Usuarios\Usuario\Música\someone_like_you.mp3</ruta>
+    </cancion>
+    <cancion nombre="Hello">
+        <artista>Adele</artista>
+        <album>25</album>
+        <imagen>pr\600.jpg</imagen>
+        <ruta>C:\Usuarios\Usuario\Música\hello.mp3</ruta>
+        </cancion>
+    <cancion nombre="Set Fire to the Rain">
+        <artista>Adele</artista>
+        <album>21</album>
+        <imagen>pr\600.jpg</imagen>
+        <ruta>C:\Usuarios\Usuario\Música\set_fire_to_the_rain.mp3</ruta>
+    </cancion>
+    <cancion nombre="Hotel California">
+        <artista>Eagles</artista>
+        <album>Hotel California</album>
+        <imagen>pr\700.jpg</imagen>
+        <ruta>C:\Usuarios\Usuario\Música\hotel_california.mp3</ruta>
+    </cancion>
+    <cancion nombre="Life in the Fast Lane">
+        <artista>Eagles</artista>
+        <album>Hotel California</album>
+        <imagen>pr\700.jpg</imagen>
+        <ruta>C:\Usuarios\Usuario\Música\life_in_the_fast_lane.mp3</ruta>
+    </cancion>
+    <cancion nombre="New Kid in Town">
+        <artista>Eagles</artista>
+        <album>Hotel California</album>
+        <imagen>pr\700.jpg</imagen>
+        <ruta>C:\Usuarios\Usuario\Música\new_kid_in_town.mp3</ruta>
+    </cancion>
+    <cancion nombre="Wasted Time">
+        <artista>Eagles</artista>
+        <album>Hotel California</album>
+        <imagen>pr\700.jpg</imagen>
+        <ruta>C:\Usuarios\Usuario\Música\wasted_time.mp3</ruta>
+    </cancion>
+    <cancion nombre="Victim of Love">
+        <artista>Eagles</artista>
+        <album>Hotel California</album>
+        <imagen>pr\700.jpg</imagen>
+        <ruta>C:\Usuarios\Usuario\Música\victim_of_love.mp3</ruta>
+    </cancion>
+</biblioteca>

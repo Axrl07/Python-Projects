@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListasReproduccion>
+	<ListaReproduccion nombre="Playlist1">
+		<Cancion nombre="Cancion1">
+			<Artista>Artista1</Artista>
+			<Album>Album1</Album>
+			<Imagen>imagen1</Imagen>
+			<Ruta>ruta1</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion2">
+			<Artista>Artista2</Artista>
+			<Album>Album2</Album>
+			<Imagen>imagen2</Imagen>
+			<Ruta>ruta2</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion3">
+			<Artista>Artista3</Artista>
+			<Album>Album3</Album>
+			<Imagen>imagen3</Imagen>
+			<Ruta>ruta3</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+	</ListaReproduccion>
+	<ListaReproduccion nombre="Playlist2">
+		<Cancion nombre="Cancion1">
+			<Artista>Artista1</Artista>
+			<Album>Album1</Album>
+			<Imagen>imagen1</Imagen>
+			<Ruta>ruta1</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion2">
+			<Artista>Artista2</Artista>
+			<Album>Album2</Album>
+			<Imagen>imagen2</Imagen>
+			<Ruta>ruta2</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion3">
+			<Artista>Artista3</Artista>
+			<Album>Album3</Album>
+			<Imagen>imagen3</Imagen>
+			<Ruta>ruta3</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion4">
+			<Artista>Artista4</Artista>
+			<Album>Album4</Album>
+			<Imagen>imagen4</Imagen>
+			<Ruta>ruta4</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion5">
+			<Artista>Artista5</Artista>
+			<Album>Album5</Album>
+			<Imagen>imagen5</Imagen>
+			<Ruta>ruta5</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+	</ListaReproduccion>
+	<ListaReproduccion nombre="Playlist3">
+		<Cancion nombre="Cancion1">
+			<Artista>Artista1</Artista>
+			<Album>Album1</Album>
+			<Imagen>imagen1</Imagen>
+			<Ruta>ruta1</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion2">
+			<Artista>Artista2</Artista>
+			<Album>Album2</Album>
+			<Imagen>imagen2</Imagen>
+			<Ruta>ruta2</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion3">
+			<Artista>Artista3</Artista>
+			<Album>Album3</Album>
+			<Imagen>imagen3</Imagen>
+			<Ruta>ruta3</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion4">
+			<Artista>Artista4</Artista>
+			<Album>Album4</Album>
+			<Imagen>imagen4</Imagen>
+			<Ruta>ruta4</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion5">
+			<Artista>Artista5</Artista>
+			<Album>Album5</Album>
+			<Imagen>imagen5</Imagen>
+			<Ruta>ruta5</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion6">
+			<Artista>Artista6</Artista>
+			<Album>Album6</Album>
+			<Imagen>imagen6</Imagen>
+			<Ruta>ruta6</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion7">
+			<Artista>Artista7</Artista>
+			<Album>Album7</Album>
+			<Imagen>imagen7</Imagen>
+			<Ruta>ruta7</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+	</ListaReproduccion>
+	<ListaReproduccion nombre="Playlist4">
+		<Cancion nombre="Cancion1">
+			<Artista>Artista1</Artista>
+			<Album>Album1</Album>
+			<Imagen>imagen1</Imagen>
+			<Ruta>ruta1</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion2">
+			<Artista>Artista2</Artista>
+			<Album>Album2</Album>
+			<Imagen>imagen2</Imagen>
+			<Ruta>ruta2</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion3">
+			<Artista>Artista3</Artista>
+			<Album>Album3</Album>
+			<Imagen>imagen3</Imagen>
+			<Ruta>ruta3</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion4">
+			<Artista>Artista4</Artista>
+			<Album>Album4</Album>
+			<Imagen>imagen4</Imagen>
+			<Ruta>ruta4</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion5">
+			<Artista>Artista5</Artista>
+			<Album>Album5</Album>
+			<Imagen>imagen5</Imagen>
+			<Ruta>ruta5</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion6">
+			<Artista>Artista6</Artista>
+			<Album>Album6</Album>
+			<Imagen>imagen6</Imagen>
+			<Ruta>ruta6</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion7">
+			<Artista>Artista7</Artista>
+			<Album>Album7</Album>
+			<Imagen>imagen7</Imagen>
+			<Ruta>ruta7</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion8">
+			<Artista>Artista8</Artista>
+			<Album>Album8</Album>
+			<Imagen>imagen8</Imagen>
+			<Ruta>ruta8</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion9">
+			<Artista>Artista9</Artista>
+			<Album>Album9</Album>
+			<Imagen>imagen9</Imagen>
+			<Ruta>ruta9</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+	</ListaReproduccion>
+	<ListaReproduccion nombre="Playlist5">
+		<Cancion nombre="Cancion1">
+			<Artista>Artista1</Artista>
+			<Album>Album1</Album>
+			<Imagen>imagen1</Imagen>
+			<Ruta>ruta1</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion2">
+			<Artista>Artista2</Artista>
+			<Album>Album2</Album>
+			<Imagen>imagen2</Imagen>
+			<Ruta>ruta2</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion3">
+			<Artista>Artista3</Artista>
+			<Album>Album3</Album>
+			<Imagen>imagen3</Imagen>
+			<Ruta>ruta3</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion4">
+			<Artista>Artista4</Artista>
+			<Album>Album4</Album>
+			<Imagen>imagen4</Imagen>
+			<Ruta>ruta4</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion5">
+			<Artista>Artista5</Artista>
+			<Album>Album5</Album>
+			<Imagen>imagen5</Imagen>
+			<Ruta>ruta5</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion6">
+			<Artista>Artista6</Artista>
+			<Album>Album6</Album>
+			<Imagen>imagen6</Imagen>
+			<Ruta>ruta6</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion7">
+			<Artista>Artista7</Artista>
+			<Album>Album7</Album>
+			<Imagen>imagen7</Imagen>
+			<Ruta>ruta7</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion8">
+			<Artista>Artista8</Artista>
+			<Album>Album8</Album>
+			<Imagen>imagen8</Imagen>
+			<Ruta>ruta8</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion9">
+			<Artista>Artista9</Artista>
+			<Album>Album9</Album>
+			<Imagen>imagen9</Imagen>
+			<Ruta>ruta9</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion10">
+			<Artista>Artista10</Artista>
+			<Album>Album10</Album>
+			<Imagen>imagen10</Imagen>
+			<Ruta>ruta10</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion11">
+			<Artista>Artista11</Artista>
+			<Album>Album11</Album>
+			<Imagen>imagen11</Imagen>
+			<Ruta>ruta11</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+	</ListaReproduccion>
+	<ListaReproduccion nombre="Playlist6">
+		<Cancion nombre="Cancion1">
+			<Artista>Artista1</Artista>
+			<Album>Album1</Album>
+			<Imagen>imagen1</Imagen>
+			<Ruta>ruta1</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion2">
+			<Artista>Artista2</Artista>
+			<Album>Album2</Album>
+			<Imagen>imagen2</Imagen>
+			<Ruta>ruta2</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion3">
+			<Artista>Artista3</Artista>
+			<Album>Album3</Album>
+			<Imagen>imagen3</Imagen>
+			<Ruta>ruta3</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion4">
+			<Artista>Artista4</Artista>
+			<Album>Album4</Album>
+			<Imagen>imagen4</Imagen>
+			<Ruta>ruta4</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion5">
+			<Artista>Artista5</Artista>
+			<Album>Album5</Album>
+			<Imagen>imagen5</Imagen>
+			<Ruta>ruta5</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion6">
+			<Artista>Artista6</Artista>
+			<Album>Album6</Album>
+			<Imagen>imagen6</Imagen>
+			<Ruta>ruta6</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion7">
+			<Artista>Artista7</Artista>
+			<Album>Album7</Album>
+			<Imagen>imagen7</Imagen>
+			<Ruta>ruta7</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion8">
+			<Artista>Artista8</Artista>
+			<Album>Album8</Album>
+			<Imagen>imagen8</Imagen>
+			<Ruta>ruta8</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion9">
+			<Artista>Artista9</Artista>
+			<Album>Album9</Album>
+			<Imagen>imagen9</Imagen>
+			<Ruta>ruta9</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion10">
+			<Artista>Artista10</Artista>
+			<Album>Album10</Album>
+			<Imagen>imagen10</Imagen>
+			<Ruta>ruta10</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion11">
+			<Artista>Artista11</Artista>
+			<Album>Album11</Album>
+			<Imagen>imagen11</Imagen>
+			<Ruta>ruta11</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion12">
+			<Artista>Artista12</Artista>
+			<Album>Album12</Album>
+			<Imagen>imagen12</Imagen>
+			<Ruta>ruta12</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion13">
+			<Artista>Artista13</Artista>
+			<Album>Album13</Album>
+			<Imagen>imagen13</Imagen>
+			<Ruta>ruta13</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion14">
+			<Artista>Artista14</Artista>
+			<Album>Album14</Album>
+			<Imagen>imagen14</Imagen>
+			<Ruta>ruta14</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+		<Cancion nombre="Cancion15">
+			<Artista>Artista15</Artista>
+			<Album>Album15</Album>
+			<Imagen>imagen15</Imagen>
+			<Ruta>ruta15</Ruta>
+			<VecesReproducida>0</VecesReproducida>
+		</Cancion>
+	</ListaReproduccion>
+</ListasReproduccion>
