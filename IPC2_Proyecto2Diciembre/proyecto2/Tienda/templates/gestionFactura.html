@@ -1,0 +1,101 @@
+{% extends "./base.html" %}
+
+{% block title %} Gestión de Productos {% endblock %}
+
+{% block body %}
+<h1>Sistema de facturación</h1>
+
+ 
+  <div class="card">
+    <div class="card-body">
+        <form action="/sistemaFacturacion/" method="POST">
+            {% csrf_token %}
+            <!--
+            -->
+                <div class="form-group">
+                    <label for="cliente">Cliente: </label>
+                    <select name="Cliente">
+                        {% for c in clientes %}
+                            
+                            <option id="{{c.id}}"> 
+                            {{c.nombre}}
+                            </option>
+                    
+                        {% endfor %}
+                    </select>
+                </div>
+ 
+                <div class="form-group">
+                    <label for="producto">Producto: </label>
+                    <select name="Productoo">
+                        {% for p in productos %}
+                            
+                            <option id="{{p.id}}"> 
+                                {{p.nombre}}
+                            </option>
+                        
+                        {% endfor %}
+                    </select>
+                </div>
+
+
+            <div class="form-group">
+                <label for="cantidad">Cantidad:</label>
+                <input type="number" id="cantidad" name="cantidad" required>
+            </div>
+
+            <div class="form-group">
+                <label for="cantidad">Precio:</label>
+
+
+                    {% for p in productos %}
+                    <option id="{{c.id}}">    
+                    <input type="number" id="precioPro" name="precioPro" value={{p.precio}} required>
+                    </option>
+                    {% endfor %}
+                
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-success btn-block text-white">Guardar</button>
+                <button type="button" class="btn btn-success btn-block text-white" onclick="agregarFila()">Agregar Fila</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+            <div class="col-sm-12 col-md-6 col-lg-8 col-xl-8">
+                <h1>Listado de Productos</h1>
+                <div class="table-responsive py-2">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Cliente</th>
+                                <th>Producto</th>
+                                <th>Cantidad</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for p in facturas %}
+                            <tr>
+                                <td>{{forloop.counter}}</td>
+                                <td>{{p.nombre}}</td>
+                                <td>{{p.Producto}}</td>
+                                <td>{{p.Cantidad}}</td>
+                                <td>{{p.Precio}}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            
+
+
+
+{% endblock %}

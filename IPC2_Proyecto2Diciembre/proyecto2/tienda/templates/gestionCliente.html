@@ -1,11 +1,7 @@
 {% extends "./base.html" %}
-
-{% block title %} Gestión de Productos {% endblock %}
-
+{% block title %} Gestión de Clientes {% endblock %}
 {% block body %}
-<h1>Esta es la gestion de productos</h1>
-
- 
+<h1>Esta es la gestion de Clientes</h1>
   <div class="card">
     <div class="card-body">
         <form action="/registrarCliente/" method="POST">{% csrf_token %}
@@ -31,7 +27,6 @@
         </form>
     </div>
 </div>
-
 <div class="col-sm-12 col-md-6 col-lg-8 col-xl-8">
     <h1>Listado de Productos</h1>
     <div class="table-responsive py-2">
@@ -57,14 +52,11 @@
                     <td>{{p.nit}}</td>
                     <td>{{p.telefono}}</td>
                     <td><a href="/edicionCliente/{{p.id}}" class="btn btn-info">Editar</a></td>
-                    <td><a href="#" class="btn btn-danger btnEliminacion">Eliminar</a></td>
+                    <td><a href="/eliminarClientes/{{p.id}}" class="btn btn-danger btnEliminacion">Eliminar</a></td>
                 </tr>
                 {% endfor %}
             </tbody>
         </table>
     </div>
 </div>
-
-
-
 {% endblock %}

@@ -1,21 +1,22 @@
-from django.shortcuts import render
-from Tienda.codigo.clases import *
-from Tienda.codigo.funciones import *
+import json
+from django.http import JsonResponse
+from django.shortcuts import render, redirect
+
 from Tienda.codigo.appData import *
+from Tienda.codigo.funciones import *
+from Tienda.codigo.clases import *
 
-# Create your views here.
-
-#------------------Home----------------------
+#----------------Home--------------------
 def home(request):
-    # if len(productos) == 0 and len(clientes) == 0 and len(facturas) == 0:
-    #     leer_xml("Tienda/data/listado_productos.xml", Producto)
-    #     leer_xml("Tienda/data/listado_clientes.xml", Cliente)
-    #     leer_xml("Tienda/data/listado_facturas.xml", Factura)
+    global facturas, productos, clientes
+    guardar_xml("Facultad.xml", facturas, "listadoFacturas")
+    guardar_xml("Productos.xml", productos, "listadoProductos")
+    guardar_xml("Clientes.xml", clientes, "listadoClientes")
     return render(request,"gestionTienda.html")
 
 #----------------Producto--------------------
 def gestionProducto(request):
-    productos
+    global productos
     return render(request,'gestionProductos.html',{"productos": productos})    
 
 def registrarProducto(request):
@@ -29,13 +30,13 @@ def registrarProducto(request):
     print(precio)
     print(stock)
     x= Producto(nombre,descripcion,precio,stock)
-    productos
+    global productos
     productos.append(x)
 
     return render(request,'gestionProductos.html',{"productos":productos})
 
 def edicionProducto(request, id):
-    productos
+    global productos
     x= None
 
     for p in productos:
@@ -45,7 +46,7 @@ def edicionProducto(request, id):
     return render(request, "editarProducto.html", {"producto":x})
 
 def editarProducto(request):
-    productos
+    global productos
 
     for p in productos:
         if p.id == request.POST['txtId']:
@@ -58,7 +59,7 @@ def editarProducto(request):
     return render(request,'gestionProductos.html',{"productos":productos})      
 
 def eliminarProducto(request, id):
-    productos
+    global productos
     for p in productos:
         if p.id == id:
             productos.remove(p)
@@ -79,31 +80,112 @@ def registrarCliente(request):
     print(direccion)
     print(nit)
     print(telefono)
-    x= Cliente(nombre,direccion,nit,telefono)
-    clientes
+    x = Cliente(nombre,direccion,telefono, nit)
+    global clientes
     clientes.append(x)
 
     return render(request,'gestionCliente.html',{"clientes":clientes})
 
+def eliminarClientes(request, id):
+    global clientes
+    for p in clientes:
+        if p.id == id:
+            clientes.remove(p)
+    return render(request,'gestionCliente.html',{"clientes":clientes})        
+
 def edicionCliente(request, id):
-    clientes
+    global clientes
     x= None
 
     for p in clientes:
         if  p.id == id:
             x = p    
     print(x.nombre)        
-    return render(request, "editarCliente.html", {"cliente":x})
+    return render(request, "editarClientes.html", {"clientes":x})
 
-def editarCliente(request):
-    clientes
+def editarClientes(request):
+    global clientes
 
     for p in clientes:
         if p.id == request.POST['txtId']:
             p.nombre = request.POST['txtNombre']
-            p.direccion= request.POST['txtDireccion']
+            p.direccion= request.POST['txDireccion']
             p.nit = request.POST['numNit']
             p.telefono = request.POST['numTelefono']
     print(p.nombre)        
 
-    return render(request,'gestionProductos.html',{"clientes":clientes})      
+    return render(request,'gestionCliente.html',{"clientes":clientes})      
+
+#    def __init__(self, nombre, direccion,nit, telefono):
+
+#----------------Factura--------------------
+
+def gestionFactura(request):
+    global productos
+    return render(request,'gestionFactura.html')
+    
+def postFactura(request):
+    global facturas
+    if request == "POST":
+        # recibiendo los datos del formulario
+        data = json.loads(request.body.decode('utf-8'))
+        nit = data.get('txtNit')
+        nombre = data.get('txtNombre')
+        subTotal = data.get('numCantidad')
+        
+        # # Esto será una cadena JSON
+        listadoCompras_str = data.get('txtProducto')
+        listadoCompras = json.loads(listadoCompras_str) 
+        
+        factura_objeto = Factura(nit, nombre, listadoCompras, subTotal)
+        facturas.append(factura_objeto)
+        
+        factura_objeto = [nit, nombre]
+        if len(factura_objeto) == 2:
+            return JsonResponse({ 'msg': 'se subió la factura con exito'}, status=200)
+        else:
+            return JsonResponse({ 'msg': 'error al subir la factura'}, status=400)
+
+def sistemaFacturacion(request):
+    cliente = request.POST['Cliente']
+    producto = request.POST['Productoo']
+    cantidad = request.POST['cantidad']
+    precio =request.POST['precioPro']
+
+
+    print(cliente)
+    print(producto)
+    print(cantidad)
+    print(precio)
+    x = Factura(cliente,producto,cantidad, precio)
+    global facturas
+    facturas.append(x)
+
+
+    return render(request,'gestionFactura.html',{"facturas":facturas})
+
+# metodos para obtener datos
+
+def getCLientes(request):
+    global clientes
+    diccionario = []
+    for clien in clientes:
+        diccionario.append(clien.to_dict())
+    if request.method == "GET":
+        return JsonResponse(diccionario, status=200)
+    
+def getProductos(request):
+    global productos
+    diccionario = []
+    for produc in productos:
+        diccionario.append(produc.to_dict())
+    if request.method == "GET":
+        return JsonResponse(diccionario, status=200)
+    
+def getFacturas(request):
+    global facturas
+    diccionario = []
+    for fact in facturas:
+        diccionario.append(fact.to_dict())
+    if request.method == "GET":
+        return JsonResponse(diccionario, status=200)
