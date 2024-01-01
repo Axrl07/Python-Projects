@@ -1,6 +1,0 @@
-Informe de Inventario:
-Producto     Cantidad   Precio Unitario   Valor total  Ubicacion
-----------------------------------------------------------------
-Manzana      0          5                 250.00       BodegaA
-Banana       30         1.5               45.00        BodegaB
-Pera         40         5                 200.00       BodegaC
